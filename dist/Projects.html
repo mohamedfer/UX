@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mohamed Ferchichi</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<a href="index.html" class="logo"  >
+		<img src="img/1570530677715.jpg" alt="">
+	</a>
+
+
+  	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+
+
+
+  	<label for="menu-icon"></label>
+  	<nav class="nav"> 		
+  		<ul class="pt-5">
+  			  <li><a href="index.html">Home</a></li>
+        <li><a href="#">Projects</a></li>
+       <li><a href="contact.html">Contact</a></li>
+  		</ul>
+  	</nav>
+
+  	 
+
+
+
+  
+  <div class="container">
+    
+    <h1>My Projects</h1>
+    
+    <div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">Project 1 </label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            platform to teach skills with modern methods using technology. Using : figma,photohop.<br>
+check the work. <a href="https://www.figma.com/file/QnoeAwUU9BdMGe9JRn1GbT/Untitled?node-id=2%3A3" target="_blank">Click here </a> 
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">Project 2</label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Marketplace to sell and buy the NFTs  .Using Figma ,Photohop.<br>
+             check the work. 
+             <a href="https://www.figma.com/file/66iIC4NSre1a6ozvJzFBoq/NFT'S-Project?node-id=0%3A1" target="_blank">Click here </a> 
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">Project 3</label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            health platform to create surveys before the operations. Using : HTML,CSS,JS,Photoshop.  <br> 
+            check the work. <a href="https://pre-anesthesivisite.netlify.app/" target="_blank">Click here </a>    
+          </p>
+        </div>
+      </div>
+    </div>
+    
+
+<div class="faq-drawer">
+      <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">Project 4</label>
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+           recreation of Sign In , Facebook page and send the f email and password to Excel sheet.  <br> 
+            check the work. <a href="https://loginffbb.netlify.app/" target="_blank">Click here </a>    
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+<style type="text/css">
+
+
+
+.container {
+ padding: 200px;
+}
+
+.faq-drawer {
+  margin-bottom: 30px;
+}
+
+.faq-drawer__content-wrapper {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+}
+
+.faq-drawer__title {
+  border-top: #000 1px solid;
+  cursor: pointer;
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 30px 0 0 0;
+  position: relative;
+  margin-bottom: 0;
+  transition: all 0.25s ease-out;
+}
+
+.faq-drawer__title::after {
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  content: " ";
+  display: inline-block;
+  float: right;
+  height: 10px;
+  left: 2px;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  transform: rotate(135deg);
+  transition: 0.35s ease-in-out;
+  vertical-align: top;
+  width: 10px;
+}
+
+/* OPTIONAL HOVER STATE */
+.faq-drawer__title:hover { 
+  color: #4E4B52  ;
+}
+
+.faq-drawer__trigger:checked
+  + .faq-drawer__title
+  + .faq-drawer__content-wrapper {
+  max-height: 350px;
+}
+
+.faq-drawer__trigger:checked + .faq-drawer__title::after {
+  transform: rotate(-45deg);
+  transition: 0.25s ease-in-out;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 80px;
+  }
+}
+
+
+
+</style>
+
+
+
+   
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
